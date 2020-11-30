@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(work_with_files)
+project(read_and_output_table)
 
-add_executable(work_with_files main.cpp)
+add_executable(read_and_output_table main.cpp)
 set_target_properties(
-        work_with_files PROPERTIES
+        read_and_output_table PROPERTIES
         CXX_STANDART 17
         CXX_STANDART_REQUIRED ON
 )
