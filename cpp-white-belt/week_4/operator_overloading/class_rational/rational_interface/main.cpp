@@ -87,6 +87,13 @@ int main() {
         }
     }
 
+    {
+        const Rational r(-2, -3);
+        if (r.Numerator() != 2 || r.Denominator() != 3) {
+            cout << "Rational(-2, -3) != 2/3" << endl;
+            return 5;
+        }
+    }
     cout << "OK" << endl;
     return 0;
 }
