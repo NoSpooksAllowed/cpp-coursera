@@ -1,7 +1,4 @@
-//#include "split_into_words.h"
-#include <vector>
-#include <string>
-
+#include "split_into_words.h"
 #include <algorithm>
 
 std::vector<std::string> SplitIntoWords(const std::string& s) {
