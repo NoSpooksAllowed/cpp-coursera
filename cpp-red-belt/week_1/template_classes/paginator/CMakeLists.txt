@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(bad_macro)
+project(paginator)
 
 set(CMAKE_BUILD_TYPE Debug)
 
@@ -9,7 +9,6 @@ set(SOURCES
 )
 
 set(HEADERS
-        test_runner.h    
 )
 
 add_executable(main ${SOURCES} ${HEADERS})
